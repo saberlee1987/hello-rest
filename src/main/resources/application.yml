@@ -12,6 +12,9 @@ server:
 spring:
   application:
     name: hello_world_rest
+  web:
+    resources:
+      static-locations: "classpath:/webpages/ , classpath:/webpages2/"
 
 
 service:
